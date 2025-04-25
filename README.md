@@ -1,2 +1,26 @@
 # fama-french-fintech
 Analyze firm-level returns using Fama-French 5-Factor Model across three specific industries, using monthly U.S. stock data starting from January 2000.
+
+Industries Analyzed:
+
+  48 → Financial Trading
+
+  36 → Computer Software
+
+  19 → Steel Works Etc
+
+Main Tasks:
+
+  Five-Factor Regression:
+
+  For each industry, run a Fama-French 5-Factor regression for all firms.
+
+  Identify the company with the highest beta for each factor.
+
+APT Hypothesis Test:
+
+  Test whether the residual covariance matrix implies model misspecification (using J-statistic and p-value).
+
+  Zero-Beta Tests:
+
+  Test, for each factor individually, whether its beta is statistically zero.
