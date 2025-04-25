@@ -1,0 +1,30 @@
+# Code Summary 
+
+Load the Data:
+
+  Firm returns (data_FIN509535_Fall2024.parquet)
+
+  Company names (names.csv)
+
+Fama-French 5-Factor data (famafrench5factors.pkl).
+
+  Clean & Merge:
+
+  Merge the firm data with the names.
+
+  Make sure returns and factor data align properly by month.
+
+Filter Firms:
+
+  Only keep firms that existed in the selected industries in January 2000.
+
+  Regression & Hypothesis Testing:
+
+  Run OLS regressions (both with and without intercepts).
+
+  Calculate the J-statistics and p-values.
+
+  Report the company with the highest beta for each factor.
+
+  Test zero-beta hypotheses for each factor separately.
+#
