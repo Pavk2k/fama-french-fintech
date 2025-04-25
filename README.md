@@ -11,7 +11,8 @@ This project uses Python to analyze firm returns by running Fama-French 5-Factor
 - Conduct zero-beta hypothesis tests for each factor individually.
 
 **Tools Used:**
-- Python 3
+- Python 3 (via Anaconda Distribution)
+- Sypder IDE
 - pandas, numpy, scipy.stats, statsmodels
 
 ## File Overview
